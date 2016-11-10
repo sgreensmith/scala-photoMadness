@@ -21,4 +21,7 @@ class photoMadnessController @Inject() extends Controller {
     Ok(views.html.photoMadness("Photo Madness", false, false))
   }
 
+  def authorize_user = Action { request =>
+    Ok("this link will authorise the users using OAuth 2.0")
+  }
 }
