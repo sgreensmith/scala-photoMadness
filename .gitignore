@@ -1,0 +1,28 @@
+# for intelliJ project
+
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+
+# for Play application from https://github.com/github/gitignore/blob/master/PlayFramework.gitignore
+bin/
+/db
+/lib/
+/logs/
+/modules
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
+#custom
