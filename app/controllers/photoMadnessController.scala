@@ -18,7 +18,7 @@ class photoMadnessController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.photoMadness("Photo Madness"))
+    Ok(views.html.photoMadness("Photo Madness", false, false))
   }
 
 }
