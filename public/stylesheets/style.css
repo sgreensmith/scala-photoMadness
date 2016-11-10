@@ -1,0 +1,32 @@
+body {
+  background: #dfffe1;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inputBox {
+  width: 220px;
+  padding: 3px;
+  margin: 2px;
+}
+
+#access {
+  background-color: greenyellow;
+  padding: 3px;
+  border-radius: 2px;
+  border-color: green;
+}
+.photo {
+  margin: 3px;
+}
+
+#error {
+  background-color: pink;
+  padding: 3px;
+  border-radius: 2px;
+}
